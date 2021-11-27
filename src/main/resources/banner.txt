@@ -1,0 +1,18 @@
+${AnsiColor.BRIGHT_YELLOW}
+
+                                 /$$       /$$
+                                | $$      | $$
+ /$$$$$$/$$$$  /$$   /$$        | $$$$$$$ | $$  /$$$$$$   /$$$$$$
+| $$_  $$_  $$| $$  | $$ /$$$$$$| $$__  $$| $$ /$$__  $$ /$$__  $$
+| $$ \ $$ \ $$| $$  | $$|______/| $$  \ $$| $$| $$  \ $$| $$  \ $$
+| $$ | $$ | $$| $$  | $$        | $$  | $$| $$| $$  | $$| $$  | $$
+| $$ | $$ | $$|  $$$$$$$        | $$$$$$$/| $$|  $$$$$$/|  $$$$$$$
+|__/ |__/ |__/ \____  $$        |_______/ |__/ \______/  \____  $$
+               /$$  | $$                                 /$$  \ $$
+              |  $$$$$$/                                |  $$$$$$/
+               \______/                                  \______/
+
+${AnsiColor.BRIGHT_GREEN}
+Project Version: V1.0
+Application Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}

@@ -1,0 +1,35 @@
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  mapper-locations: classpath:mapper/*Mapper.xml
+#
+#server:
+#  port: 9999
+#
+#
+#spring:
+#  application:
+#    name: myblog-service
+#
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 39.96.21.84:8003
+#
+#  datasource:
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    hikari:
+#      auto-commit: true
+#      connection-test-query: SELECT 1
+#      connection-timeout: 30000
+#      idle-timeout: 30000
+#      max-lifetime: 30000
+#      maximum-pool-size: 15
+#      minimum-idle: 5
+#      pool-name: hikariCP
+#    name: my-blog-datasource
+#    password: 123456
+#    url: jdbc:mysql://localhost:3306/my_blog_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=UTC
+#    username: wyy
+#  thymeleaf:
+#    cache: false
