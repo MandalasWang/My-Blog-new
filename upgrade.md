@@ -14,4 +14,14 @@
 
 #### 20190902
 
+#### 20211127
+* 更新pom依赖增加阿里巴巴cloud
+* 更新pom 增加阿里nacos
+* 更新pom 增加sentinel限流工具
+* 增加OSS分布式文件服务
+
+#### 20211128
+* 更新修复了无法打包问题
+
+
 * 添加开发文档[《SpringBoot + Mybatis + Thymeleaf 搭建美观实用的个人博客》](https://www.shiyanlou.com/courses/1367)
