@@ -19,7 +19,7 @@ spring:
         dashboard: 39.96.21.84:8080 #sentinel流控控制面板
 
 profiles:
-  active: prd
+  active: dev
 
 ---
 spring:

@@ -3,6 +3,7 @@ package com.site.blog.my.core.util;
 import org.springframework.util.StringUtils;
 
 import java.net.URI;
+import java.util.UUID;
 
 /**
  * @author 13
@@ -52,5 +53,13 @@ public class MyBlogUtils {
         value = value.replaceAll("table", "tab1e");
         value = value.replaceAll("tb", "tb0");
         return value;
+    }
+
+    /**
+     * 随机生成
+     * @return
+     */
+    public static String generateUUID() {
+        return UUID.randomUUID().toString().replaceAll("-","").substring(0,32);
     }
 }
